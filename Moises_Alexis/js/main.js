@@ -1,7 +1,10 @@
-alert("Su apellido es :Torres Povis" );
+var nombre = prompt("Escribe tu nombre"); 
+alert("Su apellido es :"+nombre+" Torres Povis" );
 
-var a = 15;
-var b = 15;
+var x = prompt("Escribe el primer numero");
+var y = prompt("Escribe el segundo numero");
+var a = parseInt(x);
+var b = parseInt(y);
 
 function funcionSuma(numero1, numero2) {
     return numero1 + numero2;

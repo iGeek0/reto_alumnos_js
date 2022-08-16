@@ -3,11 +3,15 @@ alert("Bienvenido a mi pagina");
 var nombre = prompt("Ingrese su nombre");
 var apellido = prompt("Ingrese sus apellidos");
 
-alert("Su nombre es: " + nombre);
+alert("Su nombre es: " + nombre + apellido);
 
 var a = "20";
 var b = "10";
 var password = "AgrRkeTz";
+
+var numero1 = prompt("ingrese un número");
+var numero2 = prompt("ingrese un número");
+
 
 function funcionSuma(numero1, numero2) {
     return numero1 + numero2;
@@ -18,6 +22,5 @@ function funcionResta(numero1, numero2) {
     return numero1 - numero2;
     alert("La resta es " + funcionResta(a, b));
 }
-
 
 
